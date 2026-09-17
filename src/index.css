@@ -325,7 +325,7 @@
     font-size: 15px;
 }
 }
-<!-- CALL TO ACTION SECTION/
+/* <!-- CALL TO ACTION SECTION/ */
 .call-to-action {
     background-color: #007bff;
     padding: 80px 10%;
@@ -393,7 +393,7 @@ cursor: pointer;
 .footer-box a:hover {
     color: #fff;
 }
-/*COPYRIGHT*/
+/* COPYRIGHT */
 .copyright {
     text-align: center;
     margin-top: 40px;
