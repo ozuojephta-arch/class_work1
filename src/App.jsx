@@ -1,5 +1,5 @@
 import React from 'react'
-
+import card1 from "./assets/BREASTFEEDING MOTHER.jpg"
 const App = () => {
   return (
     <div>
@@ -27,17 +27,17 @@ const App = () => {
         <h2>What Our Students Say</h2>
         <div className="testimonial-container">
             <div className="card">
-                <img src="../../Downloads/BREASTFEEDING MOTHER.jpg" alt="Breastfeading Mother"/>
+                <img src={card1} alt="M"/>
                 <h3>Oluchi Iwueze</h3>
                 <p>"The practical experience I gained here was invaluable. It prepared me for real-world challenges and boosted my confidence."</p>
             </div>
             <div className="card">
-                <img src="../../Downloads/BREASTFEEDING MOTHER.jpg" alt="Breastfeading Mother"/>
+                <img src={card1} alt="Breastfeading Mother"/>
                 <h3>Ozuo Jeptha</h3>
                 <p>"The practical experience I gained here was invaluable. It prepared me for real-world challenges and boosted my confidence."</p>
             </div>
             <div className="card">
-                <img src="../../Downloads/BREASTFEEDING MOTHER.jpg" alt="Breastfeading Mother"/>
+                <img src={card1} alt="Breastfeading Mother"/>
                 <h3>Madu Ebuka</h3>
                 <p>"The practical experience I gained here was invaluable. It prepared me for real-world challenges and boosted my confidence."</p>
             </div>
@@ -58,7 +58,7 @@ const App = () => {
         </div>
 
    <div className="about-image">
-        <img src="../../Downloads/reading1.jpg" alt="About Image"/>
+        <img src={card1} alt="About Image"/>
 </div>
         </section>
     {/* <!--CALL TO ACTION--> */}

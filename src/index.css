@@ -57,7 +57,7 @@
 /* HERO SECTION */
 .hero {
     height: 50vh;
-    background-image: url('../../Downloads/1000618397.jpg');
+    background-image: url('./assets/aimovie.png');
 
     background-size: cover;
     background-position: center;
